@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+<head>
+   <title>Pendule SNCF</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <script type="text/javascript" src="horloge.js"></script>
+</head>
+<body>
+   <center>Ratio d'agrandissement (1 = 100%):<input type="text" value="0.5" 
+   onChange="document.getElementById('horloge').setAttribute('size', this.value); resize();"
+   size="3" style="text-align: center;" /><br />
+   
+   <!-- Appel de la pendule	-->
+   <div id="horloge" size="0.5" data-imgsrc="./"></div>
+   <!--						-->
+   
+   </center>
+</body>
+</html>
